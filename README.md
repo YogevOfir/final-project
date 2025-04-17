@@ -8,7 +8,7 @@ This repository implements a method for **localizing a UAV** (Unmanned Aerial Ve
 2. **Template Extraction**: The segmented output (semantic mask) serves as a template capturing the scene’s structural layout.
 3. **Map Matching**: This semantic template is matched against a larger ground-truth map (with the same semantic labeling) to find the best location alignment.
 
-By harnessing semantic cues instead of raw RGB data, the approach improves robustness to lighting, seasonal changes, and appearance variations.
+for more look here [paper](https://github.com/moshenh01/final-project/blob/master/Semantic%20Template%20Matching%20For%20Map-Based%20UAV%20Localization.pdf)
 
 ## Project Structure
 
