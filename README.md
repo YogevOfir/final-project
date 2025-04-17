@@ -69,5 +69,12 @@ Follow these steps to prepare your environment and run the code:
    ```bash
    python -c "import torch, pytorch_lightning, cv2; print('Setup OK')"
    ```
+## Acknowledgement
 
-You’re now ready to train the segmentation model (`train_supervision.py`) or run localization experiments (`tamplateMatching.py` and variants). For detailed usage and parameter options, refer to the script docstrings or the project report PDF.
+- [pytorch lightning](https://www.pytorchlightning.ai/)
+- [timm](https://github.com/rwightman/pytorch-image-models)
+- [pytorch-toolbelt](https://github.com/BloodAxe/pytorch-toolbelt)
+- [ttach](https://github.com/qubvel/ttach)
+- [catalyst](https://github.com/catalyst-team/catalyst)
+- [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
+- [GeoSeg](https://github.com/WangLibo1995/GeoSeg)
